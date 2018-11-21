@@ -9,6 +9,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:share": "run-p start share",
+    "share": "browser-sync recipe webpack.react-hot-loader ./public",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -21,5 +23,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "npm-run-all": "^4.1.3"
+  }
 }
