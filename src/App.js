@@ -6,10 +6,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>oh hi Krystal. Youre on MY HEART!</p>
-          <input type="text" />
-          Learn React
+          <p>oh hi</p>
         </header>
+        <p>Hey</p>
       </div>
     );
   }
